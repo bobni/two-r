@@ -1,2 +1,2 @@
 # two-r
-ABS.olutely VR Collaboration Tool
+ABSolute.ly VR Collaboration Tool
