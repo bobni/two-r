@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{7AFC5694-50D2-B895-A334-51993FA8CF8D}") = "PhotoSphereViewer", "Assembly-CSharp.csproj", "{66EC621C-EF78-63E5-967E-4278781C44E3}"
 EndProject
+Project("{7AFC5694-50D2-B895-A334-51993FA8CF8D}") = "PhotoSphereViewer", "Assembly-CSharp-Editor.csproj", "{5C4C8335-93F3-34CF-9EDA-9893E4FC243F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{66EC621C-EF78-63E5-967E-4278781C44E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{66EC621C-EF78-63E5-967E-4278781C44E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{66EC621C-EF78-63E5-967E-4278781C44E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C4C8335-93F3-34CF-9EDA-9893E4FC243F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C4C8335-93F3-34CF-9EDA-9893E4FC243F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C4C8335-93F3-34CF-9EDA-9893E4FC243F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C4C8335-93F3-34CF-9EDA-9893E4FC243F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
