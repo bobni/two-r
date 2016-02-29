@@ -73,11 +73,14 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
      <Compile Include="Assets\MicrophoneTest.cs" />
+     <Compile Include="Assets\ReverseNormals.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
      <Compile Include="Assets\Scripts\CameraMovementPhone.cs" />
      <Compile Include="Assets\Scripts\InvertedSphere.cs" />
      <Compile Include="Assets\Scripts\MicrophoneRecord.cs" />
      <Compile Include="Assets\Scripts\MouseTarget.cs" />
+     <Compile Include="Assets\createObject.cs" />
+     <Compile Include="Assets\createRecording.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
