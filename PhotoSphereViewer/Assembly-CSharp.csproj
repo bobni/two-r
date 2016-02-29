@@ -72,6 +72,7 @@
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardAndroidDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\CardboardiOSDevice.cs" />
      <Compile Include="Assets\Cardboard\Scripts\VRDevices\UnityEditorDevice.cs" />
+     <Compile Include="Assets\ChangeImage.cs" />
      <Compile Include="Assets\MicrophoneTest.cs" />
      <Compile Include="Assets\ReverseNormals.cs" />
      <Compile Include="Assets\Scripts\CameraMovement.cs" />
