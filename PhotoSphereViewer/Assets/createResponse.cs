@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class MicrophoneTest : MonoBehaviour {  
+public class createResponse : MonoBehaviour {  
 	//A boolean that flags whether there's a connected microphone  
 	private bool micConnected = false;  
 
@@ -9,13 +9,10 @@ public class MicrophoneTest : MonoBehaviour {
 	private int minFreq;  
 	private int maxFreq;  
 
-	private bool noteCreated = false;
-
 	//A handle to the attached AudioSource  
 	private AudioSource goAudioSource;  
 
 	public GameObject pointer;
-	public GameObject responseObject;
 
 	private bool clicked = false;
 	private bool recorded = false;
@@ -82,37 +79,25 @@ public class MicrophoneTest : MonoBehaviour {
 	}
 	*/
 	public void startRecord(){
-		Debug.Log ("clicked");
+		Debug.Log ("clicked response");
 		if (!recorded) {
 			if (micConnected) {  
 				//If the audio from any microphone isn't being captured  
 				if (!Microphone.IsRecording (null)) {  
 					//Case the 'Record' button gets pressed   
 					goAudioSource.clip = Microphone.Start (null, true, 20, maxFreq);  
-					Debug.Log ("beginning recording");
+					Debug.Log ("beginning recording response");
 				} else { //Recording is in progress  
 					//Case the 'Stop and Play' button gets pressed   
 					Microphone.End (null); //Stop the audio recording  
 					goAudioSource.Play (); //Playback the recorded audio 
-					Debug.Log ("stopped recording");
+					Debug.Log ("stopped recording response");
 					recorded = true;
 				}  
 			}
 		} else {
-			/*
-			if (played) {
-				pointer = GameObject.FindGameObjectWithTag ("pointer");
-				Instantiate (responseObject, pointer.transform.position + (pointer.transform.forward * 8), pointer.transform.rotation);
-			
-			}
-*/
-			Debug.Log ("playing");
+			Debug.Log ("playing response");
 			goAudioSource.Play ();
-			if (!noteCreated) {
-				pointer = GameObject.FindGameObjectWithTag ("pointer");
-				Instantiate (responseObject, pointer.transform.position + (pointer.transform.forward * 8), pointer.transform.rotation);
-				noteCreated = true;
-			}
 		}
 	}
 }  

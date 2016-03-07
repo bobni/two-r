@@ -82,6 +82,7 @@
      <Compile Include="Assets\Scripts\MouseTarget.cs" />
      <Compile Include="Assets\createObject.cs" />
      <Compile Include="Assets\createRecording.cs" />
+     <Compile Include="Assets\createResponse.cs" />
      <None Include="Assets\Cardboard\Resources\SkyboxMesh.shader" />
      <None Include="Assets\Cardboard\Distortion\CardboardDistortion.cginc" />
      <None Include="Assets\Cardboard\Resources\UnlitTexture.shader" />
