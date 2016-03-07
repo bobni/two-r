@@ -80,6 +80,7 @@
      <Compile Include="Assets\Scripts\InvertedSphere.cs" />
      <Compile Include="Assets\Scripts\MicrophoneRecord.cs" />
      <Compile Include="Assets\Scripts\MouseTarget.cs" />
+     <Compile Include="Assets\Scripts\loadOnClick.cs" />
      <Compile Include="Assets\createObject.cs" />
      <Compile Include="Assets\createRecording.cs" />
      <Compile Include="Assets\createResponse.cs" />
