@@ -4,10 +4,14 @@ using System.Collections;
 public class ChangeImage : MonoBehaviour {
 
 	public Texture defaultTexture;
-	public string url = "http://droidviews.com/wp-content/uploads/2013/06/Photosphere-Photo.jpg";
+	public string thisUrl = "http://i.imgur.com/f5mqp.jpg";
 
 	IEnumerator Start() {
 		// Start a download of the given URL
+		storeImage storeThis = GameObject.FindGameObjectWithTag("store").GetComponent<storeImage>();
+		string url = storeThis.stored;
+		if (storeThis == null || !url.StartsWith("http"))
+			url = "http://droidviews.com/wp-content/uploads/2013/06/Photosphere-Photo.jpg";
 		WWW www = new WWW (url);
 
 		// Wait for download to complete
