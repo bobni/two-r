@@ -9,6 +9,7 @@ public class ChangeImage : MonoBehaviour {
 
 	IEnumerator Start() {
 		// Start a download of the given URL
+
 		try{
 			storeImage storeThis = GameObject.FindGameObjectWithTag("store").GetComponent<storeImage>();
 			url = storeThis.stored;
