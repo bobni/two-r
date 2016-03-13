@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿#if UNITY_EDITOR
+
+using UnityEngine;
 using UnityEditor;
 
 public class InvertedSphere : EditorWindow {
@@ -65,3 +67,5 @@ public class InvertedSphere : EditorWindow {
 		Destroy(go, 0.0f);
 	}
 }
+
+#endif

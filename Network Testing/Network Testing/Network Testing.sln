@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{B3B8103B-3A2B-4008-8EF0-A632A4458FFC}") = "Network Testing", "Assembly-CSharp.csproj", "{D28D96F4-C634-6CE5-BF57-5D15CC9715BF}"
+EndProject
+Project("{B3B8103B-3A2B-4008-8EF0-A632A4458FFC}") = "Network Testing", "Assembly-UnityScript.unityproj", "{542ACB1E-A8BB-315A-8700-09B52874DE5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D28D96F4-C634-6CE5-BF57-5D15CC9715BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D28D96F4-C634-6CE5-BF57-5D15CC9715BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D28D96F4-C634-6CE5-BF57-5D15CC9715BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D28D96F4-C634-6CE5-BF57-5D15CC9715BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{542ACB1E-A8BB-315A-8700-09B52874DE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{542ACB1E-A8BB-315A-8700-09B52874DE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{542ACB1E-A8BB-315A-8700-09B52874DE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{542ACB1E-A8BB-315A-8700-09B52874DE5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
